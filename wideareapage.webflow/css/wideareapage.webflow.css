@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.cs-section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.cs-flexblock {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 60vh;
+}
+
+.cs-flexblock.alt {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.cs-flexitem {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  padding-right: 53px;
+  padding-bottom: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  font-family: Lato, sans-serif;
+  color: #725f62;
+}
+
+.cs-flexitem.wimage {
+  background-image: url('../images/SHOP_Artboard_1_copy_3_Collections_2048x2048.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cs-flexitem.wimage._1 {
+  background-image: url('../images/SHOP_Artboard_1_Collections_f3ebde12-86ba-4d2f-92c8-6e320366d866_2048x2048.jpg');
+}
+
+.cs-flexitem.wimage._2 {
+  background-image: url('../images/SHOP_Artboard_1_copy_Collections_2048x2048.jpg');
+}
+
+.cs-flexitem.wimage._3 {
+  background-image: url('../images/SHOP_Artboard_1_copy_2_Collections_2048x2048.jpg');
+}
+
+.cs-flexitem.wimage._4 {
+  background-image: url('../images/SHOP_Artboard_1_copy_8_Collections_2048x2048.jpg');
+}
+
+.cs-flexitem.alt {
+  padding-right: 0px;
+  padding-left: 53px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.cs-flexitem-head {
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.cs-flexitem-text {
+  margin-bottom: 100px;
+  font-family: Bodoniflf, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.cs-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 110px;
+  padding: 15px 25px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #725f62;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #000;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 991px) {
+  .cs-flexitem {
+    padding-right: 30px;
+    padding-left: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cs-flexitem.alt {
+    padding-left: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 479px) {
+  .cs-flexblock {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .cs-flexblock.alt {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .cs-flexitem {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cs-flexitem.wimage {
+    min-height: 500px;
+  }
+  .cs-flexitem.alt {
+    padding-left: 10px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@font-face {
+  font-family: 'Bodoniflf';
+  src: url('../fonts/BodoniFLF-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
